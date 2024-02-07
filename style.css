@@ -1,0 +1,55 @@
+@font-face {
+    font-family: PantonDemo-Black;
+    src: url("PantonDemo-Black.otf") format("opentype");
+}
+
+
+html {
+    height: 100%;
+    width: 100%;
+    background: url(newyork.jpg) no-repeat center center fixed;
+    /* filter: brightness(0.788); */
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    /* display: block; */
+    font-family: PantonDemo-Black;
+    font-size: 66px;
+    font-weight: normal;
+    font-style: normal;
+    opacity: 1;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    line-height: normal;
+    color: white;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.15);
+    width: 300px; 
+    height: 200px; 
+    text-align: center; 
+    padding: 20px;
+}
+
+p.tagline {
+    font-family: "Helvetica", sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+height: 100%;
+color: white;
+text-align: center; */
+
+/* First design the logo and then we will put it in a div, and then attach all that under the div */
